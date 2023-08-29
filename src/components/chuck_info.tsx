@@ -1,8 +1,8 @@
-interface ChuckInfo {
+interface ChuckData {
   whalesSaved: number;
   roundHouseKicks: number;
 }
-const ChuckInfo: React.FC<ChuckInfo> = ({ whalesSaved, roundHouseKicks }) => {
+const ChuckInfo: React.FC<ChuckData> = ({ whalesSaved, roundHouseKicks }) => {
   // 💡 Note that this component, like the <ChuckCard />, uses an "explicit return"
   // Compare this to <ChuckJoke/> which just returns the JSX directly like this:
   // const ChuckJoke = () => <>... some JSX Here...</>;
